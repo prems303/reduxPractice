@@ -9,6 +9,9 @@ const words = (state = [], action) => {
         }
       ]
 
+    case 'DELETE':
+      return state.filter(w => w.id !== action.id)
+
     default:
       return state
   }

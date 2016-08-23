@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react'
 
 const Img = ({img}) => (
-    <div><img src={img}></img></div>
+    <div><img src={img}></img> <button type="button">DEL</button></div>
 )
 
 Img.propTypes = {

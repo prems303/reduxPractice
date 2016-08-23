@@ -16,3 +16,10 @@ export const addImg = (img) => {
     img
   }
 }
+
+export const delFunct = (id) => {
+  return {
+   type: 'DELETE',
+   id
+  }
+}
