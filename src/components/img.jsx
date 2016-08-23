@@ -1,7 +1,7 @@
 import React, {PropTypes} from 'react'
 
 const Img = ({img}) => (
-    <div>{img}</div>
+    <div><img src={img}></img></div>
 )
 
 Img.propTypes = {
