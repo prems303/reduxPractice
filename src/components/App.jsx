@@ -9,9 +9,9 @@ export default React.createClass({
   render () {
     return (
       <div className='app-container'>
-        <WordsContainer />
         <AddWord />
         <AddImg />
+        <WordsContainer />
         <ImgsContainer />
       </div>
     )
